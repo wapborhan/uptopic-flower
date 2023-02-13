@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uptopic-flower/static/css/main.63c4a1fc.css",
+    "main.js": "/uptopic-flower/static/js/main.70370429.js",
+    "static/js/787.9e04bcd2.chunk.js": "/uptopic-flower/static/js/787.9e04bcd2.chunk.js",
+    "index.html": "/uptopic-flower/index.html",
+    "main.63c4a1fc.css.map": "/uptopic-flower/static/css/main.63c4a1fc.css.map",
+    "main.70370429.js.map": "/uptopic-flower/static/js/main.70370429.js.map",
+    "787.9e04bcd2.chunk.js.map": "/uptopic-flower/static/js/787.9e04bcd2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c4a1fc.css",
+    "static/js/main.70370429.js"
+  ]
+}

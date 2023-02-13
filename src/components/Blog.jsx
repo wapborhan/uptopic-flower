@@ -1,4 +1,5 @@
 import React from "react";
+import BlogImg from "../assets/img/blog.png";
 
 const Blog = () => {
   return (
@@ -6,7 +7,7 @@ const Blog = () => {
       <div className="wrapper banner-bg">
         <div className="wrapper-fluid blog">
           <div className="blog-iteam">
-            <img src="img/blog.png" alt="" />
+            <img src={BlogImg} alt="" />
             <h1>Lorum ipsum dolor</h1>
             <p>
               Orciinterdum condimenterdum nullamcorper elit nam curabitur
@@ -14,7 +15,7 @@ const Blog = () => {
             </p>
           </div>
           <div className="blog-iteam">
-            <img src="img/blog.png" alt="" />
+            <img src={BlogImg} alt="" />
             <h1>Lorum ipsum dolor</h1>
             <p>
               Orciinterdum condimenterdum nullamcorper elit nam curabitur
@@ -22,7 +23,7 @@ const Blog = () => {
             </p>
           </div>
           <div className="blog-iteam">
-            <img src="img/blog.png" alt="" />
+            <img src={BlogImg} alt="" />
             <h1>Lorum ipsum dolor</h1>
             <p>
               Orciinterdum condimenterdum nullamcorper elit nam curabitur

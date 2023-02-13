@@ -1,6 +1,7 @@
 import React from "react";
 
 export const Footer = () => {
+  const d = new Date();
   return (
     <footer>
       <div className="full-wrapper">
@@ -59,10 +60,15 @@ export const Footer = () => {
           <div className="clr"></div>
           <div className="copyright">
             <div className="copy-left">
-              <h1>Copyright © 2013 - All Rights Reserved - Domain Name</h1>
+              <h1>
+                Copyright © {d.getFullYear()} - All Rights Reserved - UTOPIC
+                FLOWERS
+              </h1>
             </div>
             <div className="copy-right">
-              <h1>Template by OS Templates</h1>
+              <h1>
+                Template by <a href="https://www.srdreamlab.com">SR DreamLab</a>
+              </h1>
             </div>
           </div>
         </div>

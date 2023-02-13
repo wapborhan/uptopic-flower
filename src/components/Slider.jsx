@@ -3,8 +3,8 @@ import SlideImg from "../assets/img/slider-sec.png";
 
 const Slider = () => {
   return (
-    <div class="full-wrapper">
-      <div class="wrapper">
+    <div className="full-wrapper">
+      <div className="wrapper">
         <Carousel>
           <Carousel.Item>
             <img className="d-block w-100" src={SlideImg} alt="First slide" />

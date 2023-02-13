@@ -1,4 +1,5 @@
 import React from "react";
+import ItemImg from "../assets/img/iteam.png";
 
 const Item = () => {
   return (
@@ -7,7 +8,7 @@ const Item = () => {
         <div className="iteam">
           <div className="main-iteam">
             <div className="iteam-images">
-              <img src="img/iteam.png" alt="" />
+              <img src={ItemImg} alt="" />
             </div>
             <div className="iteam-content">
               <h1>Lorum ipsum dolor</h1>
@@ -20,7 +21,7 @@ const Item = () => {
           </div>
           <div className="main-iteam">
             <div className="iteam-images">
-              <img src="img/iteam.png" alt="" />
+              <img src={ItemImg} alt="" />
             </div>
             <div className="iteam-content">
               <h1>Lorum ipsum dolor</h1>
@@ -33,7 +34,7 @@ const Item = () => {
           </div>
           <div className="main-iteam">
             <div className="iteam-images">
-              <img src="img/iteam.png" alt="" />
+              <img src={ItemImg} alt="" />
             </div>
             <div className="iteam-content">
               <h1>Lorum ipsum dolor</h1>
